@@ -1,10 +1,10 @@
 class Dog
 
-  def initialize(name, breed, breed = "Mutt")
+  def initialize(name, breed = "Mutt")
 
   end
 #setter - writer
-  def breed= (breed, breed = "Mutt")
+  def breed= (breed = "Mutt")
     @breed = this_dog_breed
 
   end
