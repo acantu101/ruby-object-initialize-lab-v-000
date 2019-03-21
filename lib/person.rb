@@ -4,8 +4,8 @@ def initialize
 end
 
 #writer
-def name= (this_person_name)
-  @name = this_person_name
+def name= (name)
+  @name = name
 end
 #reader
 def name
