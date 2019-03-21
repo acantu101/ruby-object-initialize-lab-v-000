@@ -4,7 +4,7 @@ class Dog
 
   end
 #setter - writer
-  def breed= (breed = "Mutt")
+  def breed= (breed)
     @breed = this_dog_breed
 
   end
